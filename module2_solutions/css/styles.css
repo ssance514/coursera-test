@@ -1,5 +1,14 @@
 div {
   position: relative;
-  background-color: lightblue;
+  background-color: lightgrey;
+  bodor: 1px solid black;
   float: left;
+  box-size: bording-box;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12 {
+    background-color: lightblue;
+    border: 1px solid lightpink;
+  } 
 }
