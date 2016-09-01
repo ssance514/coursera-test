@@ -1,1 +1,5 @@
-
+div {
+  position: relative;
+  background-color: lightblue;
+  float: left;
+}
